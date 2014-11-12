@@ -145,7 +145,13 @@
     <Compile Include="Migrations\201411120225219_AddNomeAndAdminToUser.Designer.cs">
       <DependentUpon>201411120225219_AddNomeAndAdminToUser.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201411120322178_AddEnderecoAndPessoa.cs" />
+    <Compile Include="Migrations\201411120322178_AddEnderecoAndPessoa.Designer.cs">
+      <DependentUpon>201411120322178_AddEnderecoAndPessoa.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\Endereco.cs" />
+    <Compile Include="Models\Pessoa.cs" />
     <Compile Include="Models\Usuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -176,6 +182,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201411120225219_AddNomeAndAdminToUser.resx">
       <DependentUpon>201411120225219_AddNomeAndAdminToUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201411120322178_AddEnderecoAndPessoa.resx">
+      <DependentUpon>201411120322178_AddEnderecoAndPessoa.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

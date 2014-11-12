@@ -11,6 +11,8 @@ namespace PDV.DAL
     public class Contexto : DbContext
     {
         public DbSet<Usuario> Usuarios { get; set; }
+        public DbSet<Pessoa> Pessoas { get; set; }
+        public DbSet<Endereco> Enderecos { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
