@@ -150,9 +150,14 @@
       <DependentUpon>201411120322178_AddEnderecoAndPessoa.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\Compra.cs" />
+    <Compile Include="Models\CompraItem.cs" />
     <Compile Include="Models\Endereco.cs" />
     <Compile Include="Models\Pessoa.cs" />
+    <Compile Include="Models\Produto.cs" />
     <Compile Include="Models\Usuario.cs" />
+    <Compile Include="Models\Venda.cs" />
+    <Compile Include="Models\VendaItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
