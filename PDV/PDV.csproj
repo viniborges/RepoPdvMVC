@@ -153,10 +153,16 @@
     <Compile Include="Migrations\201411122252089_AddRelacionamentosVendaECompra.Designer.cs">
       <DependentUpon>201411122252089_AddRelacionamentosVendaECompra.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201411122332552_AddPessoaClienteFornecedor.cs" />
+    <Compile Include="Migrations\201411122332552_AddPessoaClienteFornecedor.Designer.cs">
+      <DependentUpon>201411122332552_AddPessoaClienteFornecedor.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\Cliente.cs" />
     <Compile Include="Models\Compra.cs" />
     <Compile Include="Models\CompraItem.cs" />
     <Compile Include="Models\Endereco.cs" />
+    <Compile Include="Models\Fornecedor.cs" />
     <Compile Include="Models\Pessoa.cs" />
     <Compile Include="Models\Produto.cs" />
     <Compile Include="Models\Usuario.cs" />
@@ -197,6 +203,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201411122252089_AddRelacionamentosVendaECompra.resx">
       <DependentUpon>201411122252089_AddRelacionamentosVendaECompra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201411122332552_AddPessoaClienteFornecedor.resx">
+      <DependentUpon>201411122332552_AddPessoaClienteFornecedor.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
