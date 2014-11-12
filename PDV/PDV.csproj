@@ -149,6 +149,10 @@
     <Compile Include="Migrations\201411120322178_AddEnderecoAndPessoa.Designer.cs">
       <DependentUpon>201411120322178_AddEnderecoAndPessoa.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201411122252089_AddRelacionamentosVendaECompra.cs" />
+    <Compile Include="Migrations\201411122252089_AddRelacionamentosVendaECompra.Designer.cs">
+      <DependentUpon>201411122252089_AddRelacionamentosVendaECompra.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Compra.cs" />
     <Compile Include="Models\CompraItem.cs" />
@@ -190,6 +194,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201411120322178_AddEnderecoAndPessoa.resx">
       <DependentUpon>201411120322178_AddEnderecoAndPessoa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201411122252089_AddRelacionamentosVendaECompra.resx">
+      <DependentUpon>201411122252089_AddRelacionamentosVendaECompra.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

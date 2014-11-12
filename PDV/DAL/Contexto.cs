@@ -14,6 +14,16 @@ namespace PDV.DAL
         public DbSet<Pessoa> Pessoas { get; set; }
         public DbSet<Endereco> Enderecos { get; set; }
 
+        public DbSet<Compra> Compras { get; set; }
+
+        public DbSet<CompraItem> CompraItens { get; set; }
+
+        public DbSet<Produto> Produtos { get; set; }
+
+        public DbSet<Venda> Vendas { get; set; }
+
+        public DbSet<VendaItem> VendaItens { get; set; }
+
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
