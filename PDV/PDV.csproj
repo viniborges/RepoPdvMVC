@@ -141,6 +141,10 @@
     <Compile Include="Migrations\201411060347034_AddUsuario.Designer.cs">
       <DependentUpon>201411060347034_AddUsuario.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201411120225219_AddNomeAndAdminToUser.cs" />
+    <Compile Include="Migrations\201411120225219_AddNomeAndAdminToUser.Designer.cs">
+      <DependentUpon>201411120225219_AddNomeAndAdminToUser.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Usuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -169,6 +173,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201411060347034_AddUsuario.resx">
       <DependentUpon>201411060347034_AddUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201411120225219_AddNomeAndAdminToUser.resx">
+      <DependentUpon>201411120225219_AddNomeAndAdminToUser.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
