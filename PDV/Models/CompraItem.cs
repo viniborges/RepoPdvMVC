@@ -11,6 +11,7 @@ namespace PDV.Models
     {
         public int CompraItemId { get; set; }
         public int ProdutoID { get; set; }
+        public virtual Produto Produto { get; set; }
         public double PrecoUnitarioCompra { get; set; }
         public int Qtde { get; set; }
         public double PrecoTotalItem { get; set; }

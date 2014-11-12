@@ -13,8 +13,10 @@ namespace PDV.Models
         public int CompraId { get; set; }
 
         public int FornecedorId { get; set; }
+        public virtual Fornecedor Fornecedor { get; set; }
         public DateTime DataMovimento { get; set; }
         public int UsuarioId { get; set; }
+        public virtual Usuario Usuario { get; set; }
         public double ValorTotalCompra { get; set; }
 
         public virtual IList<CompraItem> CompraItem { get; set; }

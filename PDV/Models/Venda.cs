@@ -12,10 +12,15 @@ namespace PDV.Models
         //    VendaItens = new List<VendaItem>();
         //}
         public int VendaId { get; set; }
-        public int ClienteID { get; set; }
+        public int ClienteId { get; set; }
+
+        public virtual Cliente Cliente { get; set; }
+
         public DateTime DataMovimento { get; set; }
-        public int VendedorId { get; set; }
+        public int UsuarioId { get; set; }
+        public virtual Usuario Usuario { get; set; }
         public double ValorTotalVenda { get; set; }
         public virtual IList<VendaItem> VendaItem { get; set; }
+        
     }
 }

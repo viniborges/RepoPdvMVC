@@ -10,7 +10,8 @@ namespace PDV.Models
     public class VendaItem
     {
         public int VendaItemId { get; set; }
-        public int ProdutoID { get; set; }
+        public int ProdutoId { get; set; }
+        public virtual Produto Produto { get; set; }
         public double PrecoUnitarioVenda { get; set; }
         public int Qtde { get; set; }
         public double PrecoTotalItem { get; set; }

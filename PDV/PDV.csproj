@@ -123,6 +123,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\BaseController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ProdutoController.cs" />
     <Compile Include="Controllers\TesteController.cs" />
     <Compile Include="Controllers\UsuarioController.cs" />
     <Compile Include="DAL\Contexto.cs" />
@@ -157,6 +158,18 @@
     <Compile Include="Migrations\201411122332552_AddPessoaClienteFornecedor.Designer.cs">
       <DependentUpon>201411122332552_AddPessoaClienteFornecedor.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201411122340048_AddFkClienteEUsuarioNaVenda.cs" />
+    <Compile Include="Migrations\201411122340048_AddFkClienteEUsuarioNaVenda.Designer.cs">
+      <DependentUpon>201411122340048_AddFkClienteEUsuarioNaVenda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201411122344365_AddFkFornecEUserNaCompra.cs" />
+    <Compile Include="Migrations\201411122344365_AddFkFornecEUserNaCompra.Designer.cs">
+      <DependentUpon>201411122344365_AddFkFornecEUserNaCompra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201411122346525_AddFkProdutoNoCompraItemENoVendaItem.cs" />
+    <Compile Include="Migrations\201411122346525_AddFkProdutoNoCompraItemENoVendaItem.Designer.cs">
+      <DependentUpon>201411122346525_AddFkProdutoNoCompraItemENoVendaItem.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Cliente.cs" />
     <Compile Include="Models\Compra.cs" />
@@ -175,6 +188,11 @@
     <Content Include="packages.config" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\Login.cshtml" />
+    <Content Include="Views\Produto\Create.cshtml" />
+    <Content Include="Views\Produto\Delete.cshtml" />
+    <Content Include="Views\Produto\Details.cshtml" />
+    <Content Include="Views\Produto\Edit.cshtml" />
+    <Content Include="Views\Produto\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -206,6 +224,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201411122332552_AddPessoaClienteFornecedor.resx">
       <DependentUpon>201411122332552_AddPessoaClienteFornecedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201411122340048_AddFkClienteEUsuarioNaVenda.resx">
+      <DependentUpon>201411122340048_AddFkClienteEUsuarioNaVenda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201411122344365_AddFkFornecEUserNaCompra.resx">
+      <DependentUpon>201411122344365_AddFkFornecEUserNaCompra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201411122346525_AddFkProdutoNoCompraItemENoVendaItem.resx">
+      <DependentUpon>201411122346525_AddFkProdutoNoCompraItemENoVendaItem.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
