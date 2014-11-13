@@ -30,5 +30,7 @@ namespace PDV.DAL
         }
 
         public System.Data.Entity.DbSet<PDV.Models.Cliente> Clientes { get; set; }
+
+        public System.Data.Entity.DbSet<PDV.Models.Fornecedor> Fornecedors { get; set; }
     }
 }

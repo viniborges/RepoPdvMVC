@@ -1,0 +1,74 @@
+﻿@model PDV.Models.Fornecedor
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Fornecedor</h4>
+	<hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Endereco.Logradouro)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Endereco.Logradouro)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CPFCNPJ)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CPFCNPJ)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FornecedorId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FornecedorId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.InscricaoEstadual)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.InscricaoEstadual)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UltimaCompra)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UltimaCompra)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.PessoaId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

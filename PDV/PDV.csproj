@@ -123,6 +123,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\BaseController.cs" />
     <Compile Include="Controllers\ClienteController.cs" />
+    <Compile Include="Controllers\FornecedorController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ProdutoController.cs" />
     <Compile Include="Controllers\TesteController.cs" />
@@ -199,6 +200,11 @@
     <Content Include="Views\Cliente\Details.cshtml" />
     <Content Include="Views\Cliente\Edit.cshtml" />
     <Content Include="Views\Cliente\Index.cshtml" />
+    <Content Include="Views\Fornecedor\Create.cshtml" />
+    <Content Include="Views\Fornecedor\Delete.cshtml" />
+    <Content Include="Views\Fornecedor\Details.cshtml" />
+    <Content Include="Views\Fornecedor\Edit.cshtml" />
+    <Content Include="Views\Fornecedor\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
