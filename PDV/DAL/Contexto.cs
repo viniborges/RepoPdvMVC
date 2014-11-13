@@ -28,5 +28,7 @@ namespace PDV.DAL
         {
             modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
         }
+
+        public System.Data.Entity.DbSet<PDV.Models.Cliente> Clientes { get; set; }
     }
 }
